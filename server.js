@@ -206,5 +206,6 @@ db.on('open', () => {
     app.listen(PORT, () => {
         console.log(`Server running on port ${PORT}`);
     });
+    db.get("PRAGMA foreign_keys = ON");
 });
 
