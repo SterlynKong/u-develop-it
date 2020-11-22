@@ -10,4 +10,7 @@ router.use(require('./partyRoutes'));
 // require voterRoutes
 router.use(require('./voterRoutes'));
 
+// require voteRoutes
+router.use(require('./voteRoutes'));
+
 module.exports = router;
